@@ -106,7 +106,7 @@ if !exists('loaded_taglist')
 
     " Automatically open the taglist window on Vim startup
     if !exists('Tlist_Auto_Open')
-        let Tlist_Auto_Open = 0
+        let Tlist_Auto_Open = 1
     endif
 
     " When the taglist window is toggle opened, move the cursor to the
@@ -154,7 +154,7 @@ if !exists('loaded_taglist')
 
     " Vertically split taglist window width setting
     if !exists('Tlist_WinWidth')
-        let Tlist_WinWidth = 30
+        let Tlist_WinWidth = 40
     endif
 
     " Horizontally split taglist window height setting
